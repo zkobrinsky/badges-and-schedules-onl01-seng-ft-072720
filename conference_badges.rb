@@ -10,7 +10,8 @@ end
 
 def assign_rooms(array)
   array.each_with_index do|name, index|
-    array[index] = "Hello, #{name}! You'll be assigned to room #{index+1}!"
+    # array[index] = "Hello, #{name}! You'll be assigned to room #{index+1}!"
+    array.collect do |greeting|"Hello, #{name}! You'll be assigned to room #{index+1}!"
 
     # binding.pry
     end
