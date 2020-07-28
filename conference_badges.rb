@@ -14,7 +14,3 @@ def assign_rooms(array)
     # binding.pry
     end
   end
-
-
-
-end
