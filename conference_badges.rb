@@ -9,7 +9,9 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  array.each_with_index {|name, index| binding.pry }
+  array.each_with_index do|name, index|
+    binding.pry
+  end
   "Hello, #{name}! You'll be assigned to room #{index+1}!"
 
 
