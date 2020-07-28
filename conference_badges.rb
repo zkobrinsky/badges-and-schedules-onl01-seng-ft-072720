@@ -18,7 +18,7 @@ def assign_rooms(array)
 def printer(names)
   names_copy = names
   batch_badge_creator(names_copy)
-  binding.pry
+  # binding.pry
   assign_rooms(names)
 
 end
